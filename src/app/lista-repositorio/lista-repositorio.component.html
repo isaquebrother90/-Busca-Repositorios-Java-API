@@ -1,0 +1,26 @@
+<!-- <p>lista-repositorio works!</p> -->
+
+<table class="table table-striped" style="width:100%">
+    <thead>
+      <tr>
+        <th scope="col">image</th>
+        <th scope="col">name</th>
+        <th scope="col">stars</th>
+        <th scope="col">forks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let repositorio of repositorios">
+        <td>
+          <div class="d-flex justify-content-between ">
+            <img class="" width="100px" height="100px" [src]="repositorio?.image ? repositorio?.image : 'https://leics-fire.gov.uk/wp-content/uploads/2017/04/person-placeholder-300x300.png'" [alt]="repositorio?.name">
+          </div>
+        </td>
+        <td>{{repositorio.name}}</td>
+        <td>{{repositorio.stars}}</td>
+        <td>{{repositorio.forks}}</td>
+      </tr>
+  
+    </tbody>
+  </table>
+  <p-paginator [rows]="pageSize" [totalRecords]="totalElements" (onPageChange)="paginate($event)"></p-paginator>
