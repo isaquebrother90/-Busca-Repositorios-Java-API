@@ -8,11 +8,9 @@
     display: flex;
     align-items: center;
     vertical-align: center;
-    /*border: solid lightgrey 2px;*/
     padding-left: 1rem;
     padding-right: 1rem;
     flex-direction: column;
-    /*border-radius: .25rem;*/
     font-size: larger;
 }
 

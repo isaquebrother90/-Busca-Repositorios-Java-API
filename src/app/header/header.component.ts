@@ -12,8 +12,7 @@ export class HeaderComponent implements OnInit {
     private router: Router
   ) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
   HeaderComponent: any
 }

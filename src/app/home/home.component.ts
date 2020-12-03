@@ -8,21 +8,8 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent {
 
-  //username = '';
-
   constructor(
     private router: Router
   ) { }
-
-  /* onChange(value) {
-    this.username = value;
-  } */
-
-  /* submit() {
-    this.githubService.getByUsername(this.username)
-      .subscribe(
-        () => this.router.navigateByUrl('/events'),
-      );
-      } */
 
 }
