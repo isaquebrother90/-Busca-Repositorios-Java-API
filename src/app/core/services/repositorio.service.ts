@@ -11,6 +11,7 @@ export class RepositorioService {
     throw new Error('Method not implemented.');
   }
   protected baseUrl = 'http://localhost:8080/repositorios';  // Essa Url tem que ser reinstanciada, contato com o backend
+   //protected baseUrl = 'https://buscarepos-java.herokuapp.com';  // Essa Url tem que ser reinstanciada, contato com o backend
 
   constructor(
     protected api: HttpClient,
