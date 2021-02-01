@@ -53,13 +53,13 @@ export class ListaRepositorioComponent implements OnInit {
     }
   }
 
-   /*active(index: number) {
-    if (this.pageNumber === index) {
-      return {
-        active: true,
-      };
-    }
-  }*/
+  //  active(index: number) {
+  //   if (this.pageNumber === index) {
+  //     return {
+  //       active: true,
+  //     };
+  //   }
+  // }
 
   pageClick(page: number) {
     this.getAll(page);
