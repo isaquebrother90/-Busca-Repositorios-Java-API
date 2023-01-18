@@ -121,7 +121,6 @@
       }
     }
   },
-  "defaultProject": "busca-git",
   "cli": {
     "analytics": "c5dcbca7-46e5-44de-976d-35d877b7ba20"
   }
